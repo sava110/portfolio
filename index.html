@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
+<!-- AOS CSS -->
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>伊藤壮空 ポートフォリオ</title>
@@ -180,12 +183,12 @@
   <a href="#contact">連絡先</a>
 </nav>
 
-<section id="about">
+<section id="about" data-aos="fade-up">
   <h2>自己紹介</h2>
   <p>筑波技術大学産業情報学科3年の伊藤壮空です。つよつよエンジニアを目指して日々勉強中です。"習うより慣れよ"精神で過ごしてます。</p>
 </section>
 
-<section id="skills">
+<section id="skills" data-aos="fade-right">
   <h2>スキル</h2>
   <ul>
     <li>Java</li>
@@ -196,7 +199,7 @@
   </ul>
 </section>
 
-<section id="works">
+<section id="works" data-aos="fade-left">
   <h2>作品</h2>
 
   <div class="card">
@@ -212,7 +215,7 @@
   </div>
 </section>
 
-<section id="contact">
+<section id="contact" data-aos="zoom-in">
   <h2>連絡先</h2>
   <p>大学のEmail: <a href="mailto:a231105@a.tsukuba-tech.ac.jp">a231105@a.tsukuba-tech.ac.jp</a></p>
   <p>個人のEmail: <a href="mailto:great.sky.110@gmail.com">great.sky.110@gmail.com</a></p>
@@ -223,6 +226,10 @@
 <footer>
   &copy; 2025 伊藤壮空
 </footer>
-
+<!-- AOS JS -->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </body>
 </html>
