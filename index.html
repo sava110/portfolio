@@ -1,235 +1,191 @@
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-<!-- AOS CSS -->
-<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>伊藤壮空 ポートフォリオ</title>
-<style>
-  /* リセット */
-  * {
-    margin: 0; padding: 0; box-sizing: border-box;
-  }
-  body {
-    font-family: "Noto Sans JP", sans-serif;
-    background: #f0f4f8;
-    color: #333;
-    line-height: 1.6;
-  }
-  a {
-    color: #3498db;
-    text-decoration: none;
-  }
-  a:hover {
-    text-decoration: underline;
-  }
-  header {
-    height: 60vh;
-    background: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1350&q=80') no-repeat center/cover;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    text-shadow: 0 0 10px rgba(0,0,0,0.7);
-    padding: 0 20px;
-  }
-  header h1 {
-    font-size: 3.2rem;
-    border-radius: 10px;
-    background: rgba(0,0,0,0.4);
-    padding: 0.4em 1em;
-    margin-bottom: 0.2em;
-  }
-  header p {
-    font-size: 1.4rem;
-    border-radius: 10px;
-    background: rgba(0,0,0,0.3);
-    padding: 0.3em 0.8em;
-  }
-
-  nav {
-    background: white;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    display: flex;
-    justify-content: center;
-    gap: 2em;
-    padding: 1em 0;
-    position: sticky;
-    top: 0;
-    z-index: 10;
-  }
-  nav a {
-    font-weight: 600;
-    font-size: 1.1rem;
-    padding: 0.3em 0.6em;
-    border-radius: 8px;
-    transition: background-color 0.3s ease;
-  }
-  nav a:hover {
-    background-color: #3498db;
-    color: white;
-  }
-
-  section {
-    max-width: 900px;
-    margin: 3em auto;
-    background: white;
-    border-radius: 12px;
-    padding: 2em 2.5em;
-    box-shadow: 0 3px 10px rgba(0,0,0,0.05);
-  }
-  section h2 {
-    font-size: 2rem;
-    color: #2c3e50;
-    margin-bottom: 1em;
-    border-bottom: 3px solid #3498db;
-    padding-bottom: 0.3em;
-  }
-
-  /* About */
-  #about p {
-    font-size: 1.1rem;
-    color: #555;
-  }
-
-  /* Skills */
-  #skills ul {
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1em;
-  }
-  #skills li {
-    background: #3498db;
-    color: white;
-    padding: 0.6em 1.2em;
-    border-radius: 20px;
-    font-weight: 600;
-    box-shadow: 0 2px 6px rgba(52,152,219,0.5);
-  }
-
-  /* Works */
-  #works .card {
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    padding: 1.2em;
-    margin-bottom: 1.5em;
-    transition: box-shadow 0.3s ease;
-  }
-  #works .card:hover {
-    box-shadow: 0 8px 20px rgba(52,152,219,0.3);
-  }
-  #works .card h3 {
-    margin-bottom: 0.5em;
-    color: #2c3e50;
-  }
-  #works .card p {
-    color: #555;
-    margin-bottom: 0.8em;
-  }
-  #works .card a {
-    font-weight: 600;
-    font-size: 0.95rem;
-  }
-
-  /* Contact */
-  #contact p {
-    font-size: 1.1rem;
-  }
-  #contact a {
-    font-weight: 600;
-  }
-
-  /* Footer */
-  footer {
-    text-align: center;
-    padding: 1.5em 0;
-    color: #777;
-    font-size: 0.9rem;
-    border-top: 1px solid #ddd;
-    margin-top: 4em;
-  }
-
-  /* レスポンシブ */
-  @media (max-width: 600px) {
-    header h1 {
-      font-size: 2.2rem;
-    }
-    nav {
-      gap: 1em;
-      font-size: 0.9rem;
-    }
-    section {
-      margin: 2em 1em;
-      padding: 1.5em 1.5em;
-    }
-  }
-</style>
-</head>
-<body>
-
-<header>
-  <h1>伊藤壮空</h1>
-  <p>ソフトウェアエンジニア / Java・Spring Boot・Flutter</p>
-</header>
-
+ <!DOCTYPE html>
+ <html lang="ja">
+ <head>
+  <meta charset="UTF-8">
+  <meta name= "viewport" content="width=device-width, initial-scale=1.0">
+  <title>WCB Fashion Collection</title>
+  <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/script.js" defer></script>
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SoraItoのポートフォリオ - Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script.js" defer></script>
+ </head>
+ <body>
+  <!-- ローディング画面 -->
+  <div id="loading">
+    <p>Loading...</p>
+    <div id="loading-screen"></div>
+  </div>  
+    <header class="header">
+        <div class="header-container">
+            <a href="#" class="header-logo">Sora Itoのポートフォリオ</a>
+            <nav class="header-nav">
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#history">History</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-social">
+                <a href="https://twitter.com/your_account" target="_blank" rel="noopener noreferrer" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="https://instagram.com/your_account" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="https://line.me/ti/p/your_id" target="_blank" rel="noopener noreferrer" aria-label="LINE"><i class="fab fa-line"></i></a>
+            </div>
+            <button class="menu-button" id="menu-button" aria-label="メニューを開く">
+                <span class="menu-button-bar"></span>
+                <span class="menu-button-bar"></span>
+                <span class="menu-button-bar"></span>
+            </button>
+        </div>
+    </header>
+ 
+<!-- ナビゲーションメニュー -->
 <nav>
-  <a href="#about">自己紹介</a>
-  <a href="#skills">スキル</a>
-  <a href="#works">作品</a>
-  <a href="#contact">連絡先</a>
-</nav>
-
-<section id="about" data-aos="fade-up">
-  <h2>自己紹介</h2>
-  <p>筑波技術大学産業情報学科3年の伊藤壮空です。つよつよエンジニアを目指して日々勉強中です。"習うより慣れよ"精神で過ごしてます。</p>
+    <button id="menu-open" class="btn-menu">
+        <svg height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+            <title>メニューを開く</title>
+            <path clip-rule="evenodd" d="m4.25 8c0-.41421.33579-.75.75-.75h14c.4142 0 .75.33579.75.75s-.3358.75-.75.75h-14c-.41421 0-.75-.33579-.75-.75zm0 4c0-.4142.33579-.75.75-.75h14c.4142 0 .75.3358.75.75s-.3358.75-.75.75h-14c-.41421 0-.75-.3358-.75-.75zm.75 3.25c-.41421 0-.75.3358-.75.75s.33579.75.75.75h14c.4142 0 .75-.3358.75-.75s-.3358-.75-.75-.75z" fill-rule="evenodd"/>
+        </svg>
+    </button>
+    <div id="menu-panel">
+        <button id="menu-close" class="btn-menu">
+            <svg height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+                <title>メニューを閉じる</title>
+                <path clip-rule="evenodd" d="m7.53033 6.46967c-.29289-.29289-.76777-.29289-1.06066 0s-.29289.76777 0 1.06066l4.46963 4.46967-4.46963 4.4697c-.29289.2929-.29289.7677 0 1.0606s.76777.2929 1.06066 0l4.46967-4.4696 4.4697 4.4696c.2929.2929.7677.2929 1.0606 0s.2929-.7677 0-1.0606l-4.4696-4.4697 4.4696-4.46967c.2929-.29289.2929-.76777 0-1.06066s-.7677-.29289-1.0606 0l-4.4697 4.46963z" fill-rule="evenodd"/>
+            </svg>
+        </button>
+    </div>
+  </nav>
+    
+<section class="concept">
+    <div class="wrapper">
+    <main>
+        <section id="about" class="section section-about">
+            <div class="container about-container">
+                <div class="about-image animate-on-scroll">
+                    <!-- プロフィール画像をここに配置 -->
+                    <img src="images/icon.jpeg" alt="プロフィール画像">
+                </div>
+                <div class="about-content animate-on-scroll">
+                    <h2 class="section-title">About Me</h2>
+                    <p>
+                        AIエンジニアを目指している大学3年生です。聴覚に障害を持っていますが、技術への情熱と学習意欲は誰にも負けません。現在は主にWeb開発に取り組んでおり、フロントエンドからバックエンドまで幅広く学んでいます。将来的にはAI技術を活用した革新的なソリューションを提供できるエンジニアになりたいと考えています。
+                    </p>
+                </div>
+            </div>
+        </p>
+    </div>
 </section>
+        <section id="skills" class="section section-skills">
+            <div class="container">
+                <h2 class="section-title animate-on-scroll">Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-category animate-on-scroll">
+                        <h3><i class="fas fa-code"></i> プログラミング言語</h3>
+                        <ul>
+                            <li>HTML & CSS</li>
+                            <li>JavaScript (React, Vue.js)</li>
+                            <li>Python (Django)</li>
+                            <li>PHP (Laravel)</li>
+                            <li>SQL</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category animate-on-scroll">
+                        <h3><i class="fas fa-tools"></i> スキル</h3>
+                        <ul>
+                            <li>Git & GitHub</li>
+                            <li>UI/UX Design (Figma)</li>
+                            <li>Agile Development</li>
+                            <li>REST API</li>
+                            <li>Docker</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category animate-on-scroll">
+                        <h3><i class="fas fa-heart"></i> 好きなこと</h3>
+                        <ul>
+                            <li>新しい技術のキャッチアップ</li>
+                            <li>クリーンなコードを書くこと</li>
+                            <li>チームでの開発</li>
+                            <li>コーヒーを淹れること</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category animate-on-scroll">
+                        <h3><i class="fas fa-star"></i> 得意なこと</h3>
+                        <ul>
+                            <li>フロントエンド開発</li>
+                            <li>問題解決</li>
+                            <li>コミュニケーション</li>
+                            <li>UIデザイン</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-<section id="skills" data-aos="fade-right">
-  <h2>スキル</h2>
-  <ul>
-    <li>Java</li>
-    <li>Spring Boot</li>
-    <li>Flutter / Dart</li>
-    <li>HTML / CSS / JavaScript</li>
-    <li>Git / GitHub</li>
-  </ul>
+<section class="gallery">
 </section>
+        <section id="history" class="section section-history">
+            <div class="container">
+                <h2 class="section-title animate-on-scroll">Activity History</h2>
+                <div class="history-timeline">
+                    <div class="history-item animate-on-scroll">
+                        <div class="history-date">2023年 - 現在</div>
+                        <div class="history-content">
+                            <h3>プロジェクト名A</h3>
+                            <p>プロジェクトAの説明です。担当した役割や使用した技術などを記載します。</p>
+                        </div>
+                    </div>
+                    <div class="history-item animate-on-scroll">
+                        <div class="history-date">2022年</div>
+                        <div class="history-content">
+                            <h3>ハッカソン参加</h3>
+                            <p>〇〇ハッカソンに参加し、チームでWebアプリケーションを開発。〇〇賞を受賞しました。</p>
+                        </div>
+                    </div>
+                    <div class="history-item animate-on-scroll">
+                        <div class="history-date">2021年</div>
+                        <div class="history-content">
+                            <h3>個人開発アプリB</h3>
+                            <p>学習の一環として、〇〇という課題を解決するためのアプリを個人で開発しました。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-<section id="works" data-aos="fade-left">
-  <h2>作品</h2>
-
-  <div class="card">
-    <h3>食品管理アプリ</h3>
-    <p>Spring BootとThymeleafを使って冷蔵庫の食品を管理するWebアプリを開発。</p>
-    <a href="https://github.com/sava110/Reizouko-1.git" target="_blank" rel="noopener noreferrer">GitHub リポジトリを見る</a>
-  </div>
-
-  <div class="card">
-    <h3>Flutter フロアマップアプリ</h3>
-    <p>Flutterで作った校舎フロアマップアプリ。直感的に教室の情報を確認可能。</p>
-    <a href="https://github.com/un-frozen-deaf/NTUT_Dotto_test.git" target="_blank" rel="noopener noreferrer">GitHub リポジトリを見る</a>
-  </div>
+<section class="shop">
+    <div class="shop-content wrapper">
+        </p>
+    </div>
 </section>
+        <section id="contact" class="section section-contact">
+            <div class="container">
+                <h2 class="section-title animate-on-scroll">Contact</h2>
+                <p class="animate-on-scroll">お気軽にご連絡ください。</p>
+                <div class="contact-info animate-on-scroll">
+                    <a href="mailto:great.sky.110@gmail.com"><i class="fas fa-envelope"></i> great.sky.110@gmail.com</a>
+                    <a href="tel:080-1970-4487"><i class="fas fa-phone"></i> 080-1970-4487</a>
+                </div>
+            </div>
+        </section>
+    </main>
 
-<section id="contact" data-aos="zoom-in">
-  <h2>連絡先</h2>
-  <p>大学のEmail: <a href="mailto:a231105@a.tsukuba-tech.ac.jp">a231105@a.tsukuba-tech.ac.jp</a></p>
-  <p>個人のEmail: <a href="mailto:great.sky.110@gmail.com">great.sky.110@gmail.com</a></p>
-  <p>GitHub: <a href="https://github.com/sava110" target="_blank" rel="noopener noreferrer">https://github.com/sava110</a></p>
-</section>
-
-
-<footer>
-  &copy; 2025 伊藤壮空
-</footer>
-<!-- AOS JS -->
-<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-<script>
-  AOS.init();
-</script>
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Sora Ito. All Rights Reserved.</p>
+        </div>
+    </footer>
 </body>
 </html>
