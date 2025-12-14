@@ -22,10 +22,6 @@
     <script src="js/script.js" defer></script>
  </head>
  <body>
-  <!-- ローディング画面 -->
-  <div id="loading">
-    <p>Loading...</p>
-    <div id="loading-screen"></div>
   </div>  
     <header class="header">
         <div class="header-container">
@@ -35,6 +31,7 @@
                     <li><a href="#about">About</a></li>
                     <li><a href="#skills">Skills</a></li>
                     <li><a href="#history">History</a></li>
+                    <li><a href="#projects">Projects</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
@@ -75,7 +72,6 @@
         <section id="about" class="section section-about">
             <div class="container about-container">
                 <div class="about-image animate-on-scroll">
-                    <!-- プロフィール画像をここに配置 -->
                     <img src="images/icon.jpeg" alt="プロフィール画像">
                 </div>
                 <div class="about-content animate-on-scroll">
@@ -141,17 +137,24 @@
                 <h2 class="section-title animate-on-scroll">Activity History</h2>
                 <div class="history-timeline">
                     <div class="history-item animate-on-scroll">
-                        <div class="history-date">2023年 - 現在</div>
+                        <div class="history-date">2025年12月</div>
                         <div class="history-content">
-                            <h3>プロジェクト名A</h3>
-                            <p>プロジェクトAの説明です。担当した役割や使用した技術などを記載します。</p>
+                            <h3>大学の開発チームに参加</h3>
+                            <p>大学内で使われる履修登録や講義のシラバスを確認するサイトの改善を目標に立ち上げられました。</p>
                         </div>
                     </div>
                     <div class="history-item animate-on-scroll">
-                        <div class="history-date">2022年</div>
+                        <div class="history-date">2024年7月</div>
                         <div class="history-content">
                             <h3>ハッカソン参加</h3>
-                            <p>〇〇ハッカソンに参加し、チームでWebアプリケーションを開発。〇〇賞を受賞しました。</p>
+                            <p>筑波大学のen-Pitハッカソンに参加し、チームでWebアプリケーションを開発。</p>
+                        </div>
+                    </div>
+                    <div class="history-item animate-on-scroll">
+                        <div class="history-date">2021年</div>
+                        <div class="history-content">
+                            <h3>個人開発アプリB</h3>
+                            <p>学習の一環として、〇〇という課題を解決するためのアプリを個人で開発しました。</p>
                         </div>
                     </div>
                     <div class="history-item animate-on-scroll">
@@ -165,11 +168,21 @@
             </div>
         </section>
 
-<section class="shop">
-    <div class="shop-content wrapper">
-        </p>
-    </div>
-</section>
+        <section id="projects" class="section section-projects">
+            <div class="container">
+                <h2 class="section-title animate-on-scroll">Projects</h2>
+                <p class="animate-on-scroll">GitHubで公開している作品一覧です。</p>
+                <div class="projects-grid">
+                    <div class="project-item animate-on-scroll">
+                        <h3><i class="fab fa-github"></i> Streamlitのwebアプリ</h3>
+                        <p>Pythonだけでwebアプリが作れると聞いて、試しにToDoアプリを作成してみました。</p>
+                        <a href="https://j9ciu5wquadqfzsd34ty5w.streamlit.app/" target="_blank" rel="noopener noreferrer" class="btn">GitHubを見る</a>
+                    </div>
+                    <!-- 追加のプロジェクトをここに -->
+                </div>
+            </div>
+        </section>
+
         <section id="contact" class="section section-contact">
             <div class="container">
                 <h2 class="section-title animate-on-scroll">Contact</h2>
