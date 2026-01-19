@@ -10,7 +10,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
   <script src="js/script.js" defer></script>
-  <link rel="icon" href="images/icon.jpeg" type="image/svg+xml">
+  <link rel="icon" href="images/icon.jpg" type="image/svg+xml">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SoraIto's Portfolio</title>
@@ -22,7 +22,7 @@
     <script src="js/script.js" defer></script>
  </head>
  <body>
-  </div>  
+  </div>
     <header class="header">
         <div class="header-container">
             <a href="#" class="header-logo">SoraIto's Portfolio</a>
@@ -42,7 +42,7 @@
             </button>
         </div>
     </header>
- 
+
 <!-- ナビゲーションメニュー -->
 <nav>
     <button id="menu-open" class="btn-menu">
@@ -60,14 +60,14 @@
         </button>
     </div>
   </nav>
-    
+
 <section class="concept">
     <div class="wrapper">
     <main>
         <section id="about" class="section section-about">
             <div class="container about-container">
                 <div class="about-image animate-on-scroll">
-                    <img src="images/icon.jpeg" alt="プロフィール画像">
+                    <img src="images/icon.jpg" alt="プロフィール画像">
                 </div>
                 <div class="about-content animate-on-scroll">
                     <h2 class="section-title">About Me</h2>
@@ -91,16 +91,6 @@
                             <li>Python (Django)</li>
                             <li>PHP (Laravel)</li>
                             <li>SQL</li>
-                        </ul>
-                    </div>
-                    <div class="skill-category animate-on-scroll">
-                        <h3><i class="fas fa-tools"></i> スキル</h3>
-                        <ul>
-                            <li>Git & GitHub</li>
-                            <li>UI/UX Design (Figma)</li>
-                            <li>Agile Development</li>
-                            <li>REST API</li>
-                            <li>Docker</li>
                         </ul>
                     </div>
                     <div class="skill-category animate-on-scroll">
@@ -139,24 +129,17 @@
                         </div>
                     </div>
                     <div class="history-item animate-on-scroll">
+                        <div class="history-date">2025年11月</div>
+                        <div class="history-content">
+                            <h3>インドネシア短期留学</h3>
+                            <p>UPI（インドネシア教育大学）とCicendo（インドネシアの視覚・聴覚障害のための学校）へ訪問</p>
+                        </div>
+                    </div>
+                    <div class="history-item animate-on-scroll">
                         <div class="history-date">2024年7月</div>
                         <div class="history-content">
                             <h3>ハッカソン参加</h3>
                             <p>筑波大学のen-Pitハッカソンに参加し、チームでWebアプリケーションを開発。</p>
-                        </div>
-                    </div>
-                    <div class="history-item animate-on-scroll">
-                        <div class="history-date">2021年</div>
-                        <div class="history-content">
-                            <h3>個人開発アプリB</h3>
-                            <p>学習の一環として、〇〇という課題を解決するためのアプリを個人で開発しました。</p>
-                        </div>
-                    </div>
-                    <div class="history-item animate-on-scroll">
-                        <div class="history-date">2021年</div>
-                        <div class="history-content">
-                            <h3>個人開発アプリB</h3>
-                            <p>学習の一環として、〇〇という課題を解決するためのアプリを個人で開発しました。</p>
                         </div>
                     </div>
                 </div>
@@ -169,11 +152,32 @@
                 <p class="animate-on-scroll">GitHubで公開している作品一覧です。</p>
                 <div class="projects-grid">
                     <div class="project-item animate-on-scroll">
+                        <h3><i class="fab fa-github"></i> Portfolio</h3>
+                        <p>このポートフォリオのデータです。</p>
+                        <a href="https://github.com/sava110/sora_portfolio" class="btn">Githubを見る</a>
+                    </div>
+                    <div class="project-item animate-on-scroll">
                         <h3><i class="fab fa-github"></i> Streamlitのwebアプリ</h3>
                         <p>Pythonだけでwebアプリが作れると聞いて、試しにToDoアプリを作成してみました。</p>
                         <a href="https://j9ciu5wquadqfzsd34ty5w.streamlit.app/" target="_blank" rel="noopener noreferrer" class="btn">GitHubを見る</a>
                     </div>
                     <!-- 追加のプロジェクトをここに -->
+                     <div class="project-item animate-on-scroll">
+                        <h3><i class="fab fa-github"></i> Unityで作ったゲーム</h3>
+                        <p>Unityで、「日本事故物件監視協会」のゲームをモデルに、「学校警備員」のゲームを作りました。これは異変を探すゲームです。</p>
+                        <a href="https://unityroom.com/games/sava110" target="_blank" rel="noopener noreferrer" class="btn">リンクへ飛ぶ</a>
+                    </div>
+                    <div class="project-item animate-on-scroll">
+                        <h3><i class="fab fa-github"></i> 機械学習による指文字（数字）認識プロジェクト</h3>
+                        <p>このプロジェクトは、MediaPipeのHand Landmarkerを使って指文字（数字1〜9）のランドマークを取得し、SVM（サポートベクターマシン）による機械学習モデルで数字を自動識別するWebアプリケーションです。</p>
+                        <a href="https://github.com/sava110/HandLandmarkerr" class="btn">Githubを見る</a>
+                    </div>
+                    <div class="project-item animate-on-scroll">
+                        <h3><i class="fab fa-github"></i> Spring Boot Webアプリケーション</h3>
+                        <p>このプロジェクトでは、Eclipse IDE を用いて Spring Boot + Maven + Thymeleaf によるWebアプリケーションを開発するための環境構築手順をまとめています。</p>
+                        <a href="https://github.com/sava110/Reizouko-1" class="btn">Githubを見る</a>
+                    </div>
+
                 </div>
             </div>
         </section>
